@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8" />
+        <title>Ampersand</title>
+        <meta name="description" content="" />
+        <meta name="viewport" content="width=device-width" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" /> 
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css" />
+        <link rel="stylesheet" href="css/main.css" />
+        <link rel="stylesheet" href="css/foundation.min.css" />
+        <link rel="stylesheet" href="css/iso-style.css" />
+        <link rel="stylesheet" type="text/css" href="css/component.css" />
+        <link rel="stylesheet" href="css/prettyPhoto.css" type="text/css" media="screen" />      
+        <link href="css/jquery.bxslider.css" rel="stylesheet" />   
+        <link rel="stylesheet" type="text/css" href="css/jquery.mCustomScrollbar.css" />            
+        <link rel="stylesheet" href="css/style.css" />
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        
+
+        <!--Fonts-->        
+        <link href='http://fonts.googleapis.com/css?family=Lato:400,700,900' rel='stylesheet' type='text/css' /> <!--Lato-->
+
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head>
+    <body>
+<!--Preload-->        
+        <div id="spinner">
+            <img src="img/spinner.png" alt="img" class="logo" />
+            <img src="img/line.png" alt="img" class="line" />
+        </div>            
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+
+
+        <!-- Menu side block -->
+
+        <div class="sideNavi hide-for-small">
+            <div class="sideInner">
+                <div class="logoHolder">
+                    <img src="img/logosmall.png" alt="" />
+                </div>
+                <ul>                  
+                    <li>
+                        <div class="hi-icon-wrap hi-icon-effect-8">
+                            <a href="index.html" class="hi-icon"><img src="img/home-icon.png" alt="" />Home</a>
+                        </div>  
+                    </li>
+                    <li>
+                        <div class="hi-icon-wrap hi-icon-effect-8">
+                            <a href="#" class="hi-icon"><img src="img/pages-icon.png" alt="" /> Pages</a>
+                        </div>
+                        <ul>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="about02.html">About 02</a></li>
+                            <li><a href="team.html">Team</a></li>
+                            <li><a href="team02.html">Team 02</a></li>
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="services02.html">Services 02</a></li>
+                            <li><a href="features.html">Features</a></li>
+                            <li><a href="features02.html">Features 02</a></li>                            
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="hi-icon-wrap hi-icon-effect-8">
+                            <a href="#" class="hi-icon"><img src="img/portfolio-icon.png" alt="" /> Portfolio</a>
+                        </div>
+                        <ul>
+                            <li><a href="portfolio.html">Portfolio</a></li>
+                            <li><a href="portfolio02.html">Portfolio Two</a></li>
+                            <li><a href="portfolio03.html">Portfolio Three</a></li>
+                            <li><a href="portfolio04.html">Portfolio Four</a></li>
+                            <li><a href="portfolio-single.html">Portfolio Single</a></li>
+                        </ul>                        
+                    </li>
+                    <li>
+                        <div class="hi-icon-wrap hi-icon-effect-8">
+                            <a href="#" class="hi-icon">
+                            <img src="img/blog-icon.png" alt="" /> Blog</a>
+                        </div>
+                        <ul>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="blog02.html">Blog Two</a></li>
+                            <li><a href="blog03.html">Blog Single</a></li>
+                        </ul>                          
+                    </li>                                                
+                    <li>
+                        <div class="hi-icon-wrap hi-icon-effect-8">
+                            <a href="contact.php" class="hi-icon">
+                            <img src="img/contact-icon.png" alt="" /> Contact</a>
+                        </div>
+                    </li>                 
+                </ul>
+            </div>
+        </div>    
+
+        <!--Responsive menu-->        
+
+            <div id="dl-menu" class="dl-menuwrapper item show-for-small">
+                <button class="dl-trigger">Open Menu</button>
+                <ul class="dl-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li>
+                        <a href="#">Pages</a>
+                        <ul class="dl-submenu">
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="about02.html">About 02</a></li>
+                            <li><a href="team.html">Team</a></li>
+                            <li><a href="team02.html">Team 02</a></li>
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="services02.html">Services 02</a></li>
+                            <li><a href="features.html">Features</a></li>
+                            <li><a href="features02.html">Features 02</a></li>   
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Portfolio</a>
+                        <ul class="dl-submenu">
+                            <li><a href="portfolio.html">Portfolio</a></li>
+                            <li><a href="portfolio02.html">Portfolio Two</a></li>
+                            <li><a href="portfolio03.html">Portfolio Three</a></li>
+                            <li><a href="portfolio04.html">Portfolio Four</a></li>
+                            <li><a href="portfolio-single.html">Portfolio Single</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Blog</a>
+                        <ul class="dl-submenu">
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="blog02.html">Blog Two</a></li>
+                            <li><a href="blog03.html">Blog Single</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="contact.php">Contact</a></li>
+                </ul>
+            </div><!-- /dl-menuwrapper -->
+
+    <div class="content">
+        <div class="aboutBG">
+            <img src="img/bg2.jpg" alt="" />
+        </div>
+        <div class="contentImageHolder hide-for-small">
+
+        </div>
+        <div class="contentHolder transparent scrollContent transparentAbout">
+            <div class="pageTitle">
+                <h2>About <span>Us</span></h2>
+                <h4>Meet our team</h4>
+            </div>
+
+
+            <div class="aboutItem">
+                <div class="flipSlide">
+                  <a href="#">
+                    <div class="flipSlide-front">
+                        <img src="img/light-bulb-icon.png" alt="" />
+                    </div>
+                    <div class="flipSlide-back">
+                        <img src="img/light-bulb-icon.png" alt="" />
+                    </div>
+                  </a>
+                </div> 
+                <div class="aboutInfo">
+                    <div class="name">Fresh Ideas</div>
+                    <div class="line"></div>                 
+                    <div class="text">Egestas porta odio? </div>
+                </div>
+            </div>
+
+            <div class="aboutItem">
+                <div class="flipSlide">
+                  <a href="#">
+                    <div class="flipSlide-front">
+                        <img src="img/inovative-icon.png" alt="" />
+                    </div>
+                    <div class="flipSlide-back">
+                        <img src="img/inovative-icon.png" alt="" />
+                    </div>
+                  </a>
+                </div> 
+                <div class="aboutInfo">
+                    <div class="name">Inovative</div>
+                    <div class="line"></div>                 
+                    <div class="text">Egestas porta odio? </div>
+                </div>
+            </div>
+
+            <div class="aboutItem">
+                <div class="flipSlide">
+                  <a href="#">
+                    <div class="flipSlide-front">
+                        <img src="img/rocket-icon.png" alt="" />
+                    </div>
+                    <div class="flipSlide-back">
+                        <img src="img/rocket-icon.png" alt="" />
+                    </div>
+                  </a>
+                </div> 
+                <div class="aboutInfo">
+                    <div class="name">Fast</div>
+                    <div class="line"></div>                 
+                    <div class="text">Egestas porta odio? </div>
+                </div>
+            </div>            
+
+            <div class="aboutFull full slider">
+                <h3>Who <span>we</span> are</h3>
+                <p>Egestas porta odio? Elementum, elementum. Elit magna enim facilisis, sed duis. Odio et elementum nascetur, sit diam ultrices nunc, sit sed, eu in! Dolor sit adipiscing penatibus, proin ridiculus aenean turpis nec non cursus magna purus, massa proin, enim?  Sed integer natoque elementum habitasse, pellentesque? Ac mattis mattis aliquam, augue, vel porta sagittis quis, dignissim aeanean eu! Nec scelerisque, auctor augue, etiam odio nec! Et nisi, aenean purus ultricies? Hac ac? Ultricies vel ut, mauris. Dis tortor nisi nunc.</p>
+            </div>
+
+            <div class="full">
+                <div class="aboutHalf half">
+                    <div class="aboutFull full">
+                        <h3>our <span>philosophy</span></h3>
+                            <ul class="round">
+                                <li>Egestas porta odio</li>
+                                <li>Magna purusmassa prois</li>
+                                <li>Sed integer natoque </li>
+                                <li>Ac mattis mattis aliquam </li>
+                                <li>Augue, vel porta sagittis quis, dignissim </li>
+                                <li>Egestas porta odio</li>
+                            </ul>
+                    </div>
+                </div>
+
+                <div class="aboutHalf half">
+                    <div class="aboutFull full">
+                        <h3>follow <span>us</span></h3>
+                        <div class="fullSocials">
+                            <a href="#" target="_blank" class="facebook"></a>
+                            <a href="#" target="_blank" class="twitter"></a>
+                            <a href="#" target="_blank" class="vimeo"></a>
+                            <a href="#" target="_blank" class="reddit"></a>
+                            <a href="#" target="_blank" class="dribbble"></a>
+                            <a href="#" target="_blank" class="behance"></a>
+                            <a href="#" target="_blank" class="linkedin"></a>
+                            <a href="#" target="_blank" class="skype"></a>
+                        </div>
+                    </div>
+
+                    <div class="aboutFull full">
+                        <div class="twitters">
+                            <p>“Egestas porta odio? Elementum”</p>
+                            <span>5 days ago</span>
+                        </div>
+                    </div>
+                </div>                            
+            </div>
+
+
+            <div class="full">
+                <ul class="bxslider">
+                  <li><img src="img/logo1.png" alt="" /></li>
+                  <li><img src="img/logo2.png" alt="" /></li>
+                  <li><img src="img/logo3.png" alt="" /></li>
+                  <li><img src="img/logo1.png" alt="" /></li>
+                  <li><img src="img/logo2.png" alt="" /></li>
+                  <li><img src="img/logo3.png" alt="" /></li>
+                </ul>                
+            </div>
+
+            <div class="footerItem white">                
+                <div class="socials"> 
+                    <a href="#" target="_blank" class="facebook"></a>
+                    <a href="#" target="_blank" class="twitter"></a>
+                    <a href="#" target="_blank" class="vimeo"></a>
+                    <a href="#" target="_blank" class="reddit"></a>
+                    <a href="#" target="_blank" class="dribbble"></a>
+                    <a href="#" target="_blank" class="behance"></a>
+                    <a href="#" target="_blank" class="linkedin"></a>
+                    <a href="#" target="_blank" class="rss"></a>
+                    <a href="#" id="toTop" class="toTop">Back to top</a>
+                </div> 
+                <ul class="links">
+                    <li>website by avathemes</li>
+                    <li>all rights reserved 2013</li>
+                    <li><a href="#">privacy policy</a></li>
+                    <li><a href="#">support</a></li>
+                    <li><a href="#">purchase now</a></li>
+                    <li><a href="#">home</a></li>
+                    <li><a href="#">pages</a></li>
+                    <li><a href="#">portfolio</a></li>
+                    <li><a href="#">blog</a></li>
+                    <li><a href="#">contact</a></li>
+                </ul>                                  
+            </div>                                              
+        </div>
+    </div><!--Content end-->   
+
+
+
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/jquery.isotope.min.js"></script>
+        <script src="js/modernizr.custom.js"></script>
+        <script src="js/modernizr.custom.js"></script>
+        <script src="js/toucheffects.js"></script>
+        <script src="js/jquery.mCustomScrollbar.js"></script>        
+        <script src="js/jquery.prettyPhoto.js" type="text/javascript"></script>
+        <script src="js/jquery.bxslider.js"></script>
+        <script src="js/foundation.min.js"></script>
+        <script src="js/jquery.dlmenu.js"></script>
+        <script>
+            $(function() {
+                $( '#dl-menu' ).dlmenu();
+            });
+        </script>         
+     
+
+
+  <!--
+  
+  <script src="js/foundation/foundation.js"></script>
+  
+  <script src="js/foundation/foundation.interchange.js"></script>
+  
+  <script src="js/foundation/foundation.abide.js"></script>
+  
+  <script src="js/foundation/foundation.dropdown.js"></script>
+  
+  <script src="js/foundation/foundation.placeholder.js"></script>
+  
+  <script src="js/foundation/foundation.forms.js"></script>
+  
+  <script src="js/foundation/foundation.alerts.js"></script>
+  
+  <script src="js/foundation/foundation.magellan.js"></script>
+  
+  <script src="js/foundation/foundation.reveal.js"></script>
+  
+  <script src="js/foundation/foundation.tooltips.js"></script>
+  
+  <script src="js/foundation/foundation.clearing.js"></script>
+  
+  <script src="js/foundation/foundation.cookie.js"></script>
+  
+  <script src="js/foundation/foundation.joyride.js"></script>
+  
+  <script src="js/foundation/foundation.orbit.js"></script>
+  
+  <script src="js/foundation/foundation.section.js"></script>
+  
+  <script src="js/foundation/foundation.topbar.js"></script>
+  
+  -->
+  
+  <script>
+    $(document).foundation();
+  </script>
+
+  <script>
+    $(window).load(function() {
+    $('#container').isotope({
+      masonry: {
+         columnWidth: 1
+      }
+    });
+    });
+  </script>
+
+  <script>
+    $('.sideNavi').delay(500).animate({left: 0});
+  </script>
+
+
+  <script>
+    $("#toTop").click(function(e){
+            e.preventDefault();
+        $("html, body").animate({scrollTop: 0}, 1000);
+     });
+  </script> 
+
+  <script type="text/javascript">
+    jQuery(window).load(function ()
+    {
+
+        jQuery("a[data-rel^='prettyPhoto']").prettyPhoto({
+            theme: 'dark_square', /* light_rounded / dark_rounded / light_square / dark_square / facebook */
+        });
+     
+    });
+  </script> 
+
+<script>
+$(window).load(function() {
+    $('.contentImageHolder').find('img').each(function() {
+        var imgClass = (this.width / this.height > 1) ? 'wide' : 'tall';
+        $(this).addClass(imgClass);
+    })
+})
+</script>         
+
+<script>
+    (function($){
+        $(window).load(function(){
+            $(".scrollContent").mCustomScrollbar();
+                $(".scrollContent a.toTop").click(function(e){
+            e.preventDefault();
+            $(".scrollContent").mCustomScrollbar("scrollTo","top");
+        });
+        });
+    })(jQuery);
+</script> 
+
+<script>
+$(function(){
+    $('.scrollContent').css({'max-height':(($(window).height()))+'px'});
+
+    $(window).resize(function(){
+    $('.scrollContent').css({'max-height':(($(window).height()))+'px'});
+    });
+});
+</script> 
+  
+
+<script>
+    $(document).ready(function(){
+      $('.bxslider').bxSlider({
+        pager: false,
+        slideWidth: 200,
+        minSlides: 2,
+        maxSlides: 3,
+        slideMargin: 0
+        });
+    });
+</script>
+
+  <!-- Preloader --><script type="text/javascript">// <![CDATA[
+$(window).load(function() { $("#spinner").fadeOut("slow"); })
+// ]]></script>  
+
+    </body>
+</html>

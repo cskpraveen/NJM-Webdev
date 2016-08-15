@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8" />
+        <title>Ampersand</title>
+        <meta name="description" content="" />
+        <meta name="viewport" content="width=device-width" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" /> 
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css" />
+        <link rel="stylesheet" href="css/main.css" />
+        <link rel="stylesheet" href="css/foundation.min.css" />
+        <link rel="stylesheet" href="css/iso-style.css" />
+        <link rel="stylesheet" type="text/css" href="css/component.css" />
+        <link rel="stylesheet" href="css/prettyPhoto.css" type="text/css" media="screen" />  
+        <link rel="stylesheet" type="text/css" href="css/jquery.mCustomScrollbar.css" />     
+        <link rel="stylesheet" href="css/style.css" />
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        
+
+        <!--Fonts-->        
+        <link href='http://fonts.googleapis.com/css?family=Lato:400,700,900' rel='stylesheet' type='text/css' /> <!--Lato-->
+
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head>
+    <body>
+<!--Preload-->        
+        <div id="spinner">
+            <img src="img/spinner.png" alt="img" class="logo" />
+            <img src="img/line.png" alt="img" class="line" />
+        </div>            
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+
+
+        <!-- Menu side block -->
+
+        <div class="sideNavi hide-for-small">
+            <div class="sideInner">
+                <div class="logoHolder">
+                    <img src="img/logosmall.png" alt="" />
+                </div>
+                <ul>                  
+                    <li>
+                        <div class="hi-icon-wrap hi-icon-effect-8">
+                            <a href="index.html" class="hi-icon"><img src="img/home-icon.png" alt="" />Home</a>
+                        </div>  
+                    </li>
+                    <li>
+                        <div class="hi-icon-wrap hi-icon-effect-8">
+                            <a href="#" class="hi-icon"><img src="img/pages-icon.png" alt="" /> Pages</a>
+                        </div>
+                        <ul>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="about02.html">About 02</a></li>
+                            <li><a href="team.html">Team</a></li>
+                            <li><a href="team02.html">Team 02</a></li>
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="services02.html">Services 02</a></li>
+                            <li><a href="features.html">Features</a></li>
+                            <li><a href="features02.html">Features 02</a></li>                            
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="hi-icon-wrap hi-icon-effect-8">
+                            <a href="#" class="hi-icon"><img src="img/portfolio-icon.png" alt="" /> Portfolio</a>
+                        </div>
+                        <ul>
+                            <li><a href="portfolio.html">Portfolio</a></li>
+                            <li><a href="portfolio02.html">Portfolio Two</a></li>
+                            <li><a href="portfolio03.html">Portfolio Three</a></li>
+                            <li><a href="portfolio04.html">Portfolio Four</a></li>
+                            <li><a href="portfolio-single.html">Portfolio Single</a></li>
+                        </ul>                        
+                    </li>
+                    <li>
+                        <div class="hi-icon-wrap hi-icon-effect-8">
+                            <a href="#" class="hi-icon">
+                            <img src="img/blog-icon.png" alt="" /> Blog</a>
+                        </div>
+                        <ul>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="blog02.html">Blog Two</a></li>
+                            <li><a href="blog03.html">Blog Single</a></li>
+                        </ul>                          
+                    </li>                                                
+                    <li>
+                        <div class="hi-icon-wrap hi-icon-effect-8">
+                            <a href="contact.php" class="hi-icon">
+                            <img src="img/contact-icon.png" alt="" /> Contact</a>
+                        </div>
+                    </li>                 
+                </ul>
+            </div>
+        </div> 
+
+        <!--Responsive menu-->        
+
+            <div id="dl-menu" class="dl-menuwrapper item show-for-small">
+                <button class="dl-trigger">Open Menu</button>
+                <ul class="dl-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li>
+                        <a href="#">Pages</a>
+                        <ul class="dl-submenu">
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="about02.html">About 02</a></li>
+                            <li><a href="team.html">Team</a></li>
+                            <li><a href="team02.html">Team 02</a></li>
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="services02.html">Services 02</a></li>
+                            <li><a href="features.html">Features</a></li>
+                            <li><a href="features02.html">Features 02</a></li>   
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Portfolio</a>
+                        <ul class="dl-submenu">
+                            <li><a href="portfolio.html">Portfolio</a></li>
+                            <li><a href="portfolio02.html">Portfolio Two</a></li>
+                            <li><a href="portfolio03.html">Portfolio Three</a></li>
+                            <li><a href="portfolio04.html">Portfolio Four</a></li>
+                            <li><a href="portfolio-single.html">Portfolio Single</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Blog</a>
+                        <ul class="dl-submenu">
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="blog02.html">Blog Two</a></li>
+                            <li><a href="blog03.html">Blog Single</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="contact.php">Contact</a></li>
+                </ul>
+            </div><!-- /dl-menuwrapper -->          
+
+    <div class="content">
+        <div class="aboutBG">
+           
+        </div>
+        <div class="contentImageHolder hide-for-small">
+
+        </div>
+        <div class="contentHolder scrollContent">
+            <div class="full">
+                <div class="pageTitle">
+                    <h2>Features</h2>
+                    <h4>ampersand is full of them</h4>
+                </div>
+            </div>
+
+
+            <div class="features">
+                <div class="first">
+                    <h2>Progress bars</h2>
+                </div>
+
+                <div class="teamMember feature">
+                    <input class="knob" data-width="150" data-fgcolor="#ae0505" data-bgcolor="#e9bbbb" data-thickness=".1" value="50" />
+
+                    <div class="teamInfo">                
+                        <div class="title">Logo Design</div>
+                        <div class="text">Egestas porta odio? Elementum, elementum. Elit magna enim facilisis, sed duis. Odio et elementum.</div>
+                    </div>
+                </div>
+
+                <div class="teamMember feature">
+                    <input class="knob" data-width="150" data-fgcolor="#ae0505" data-bgcolor="#e9bbbb" data-thickness=".1" value="50" />
+
+                    <div class="teamInfo">                
+                        <div class="title">Logo Design</div>
+                        <div class="text">Egestas porta odio? Elementum, elementum. Elit magna enim facilisis, sed duis. Odio et elementum.</div>
+                    </div>
+                </div>
+
+                <div class="teamMember leftAlign">
+                    <div class="block">
+                        <h2>Block qoute</h2>
+                        <div class="panel">
+                          <p>“Egestas porta odio? Elementum, elementum. Elit magna enim facilisis, sed duis. Odio et elementum nascetur, sit diam ultrices nunc, sit sed, eu in!”</p>
+                          <div class="name">John Doe</div>
+                          <div class="company">Coca Cola</div>
+
+                        </div>
+                    </div>
+                </div>   
+
+                <div class="teamMember leftAlign">
+                    <h2>Accordion</h2>
+                    <div class="teamInfo">
+                        <ul id="identifier" class="accordion"> 
+                           <li><a href="#">tab title 1</a> 
+                              <ul> 
+                                   <li>Egestas porta odio? Elementum, elementum. Elit magna enim facilisis, sed duis. Odio et elementum nascetur, sit diam ultrices nunc, sit</li> 
+                              </ul> 
+                           </li> 
+                           <li><a href="#">tab title 3</a> 
+                              <ul> 
+                                   <li>Egestas porta odio? Elementum, elementum. Elit magna enim facilisis, sed duis. Odio et elementum nascetur, sit diam ultrices nunc, sit</li> 
+                              </ul> 
+                           </li>
+                           <li><a href="#">tab title 4</a> 
+                              <ul> 
+                                   <li>Egestas porta odio? Elementum, elementum. Elit magna enim facilisis, sed duis. Odio et elementum nascetur, sit diam ultrices nunc, sit</li> 
+                              </ul> 
+                           </li>                           
+                           <li><a href="#">tab title 4</a> 
+                              <ul> 
+                                   <li>Egestas porta odio? Elementum, elementum. Elit magna enim facilisis, sed duis. Odio et elementum nascetur, sit diam ultrices nunc, sit</li> 
+                              </ul> 
+                           </li>                              
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="full pricingv1">
+                    <h2>Pricing table</h2>
+
+                    <div class="twentyFive">
+                        <ul class="pricing-table">
+                          <li class="title">Standard</li>
+                          <li class="price">30$</li>
+                          <li class="bullet-item">20GB</li>
+                          <li class="bullet-item">2 MSQL</li>
+                          <li class="bullet-item">5GB Storage</li>
+                          <li class="bullet-item">20 Users</li>
+                          <li class="cta-button"><a href="#">Sign up now</a></li>
+                        </ul>                        
+                    </div>
+
+                    <div class="twentyFive">
+                        <ul class="pricing-table">
+                          <li class="title">Standard</li>
+                          <li class="price">30$</li>
+                          <li class="bullet-item">20GB</li>
+                          <li class="bullet-item">2 MSQL</li>
+                          <li class="bullet-item">5GB Storage</li>
+                          <li class="bullet-item">20 Users</li>
+                          <li class="cta-button"><a href="#">Sign up now</a></li>
+                        </ul>                        
+                    </div>
+
+                    <div class="twentyFive">
+                        <ul class="pricing-table">
+                          <li class="title">Standard</li>
+                          <li class="price">30$</li>
+                          <li class="bullet-item">20GB</li>
+                          <li class="bullet-item">2 MSQL</li>
+                          <li class="bullet-item">5GB Storage</li>
+                          <li class="bullet-item">20 Users</li>
+                          <li class="cta-button"><a href="#">Sign up now</a></li>
+                        </ul>                        
+                    </div>
+
+                    <div class="twentyFive">
+                        <ul class="pricing-table">
+                          <li class="title">Standard</li>
+                          <li class="price">30$</li>
+                          <li class="bullet-item">20GB</li>
+                          <li class="bullet-item">2 MSQL</li>
+                          <li class="bullet-item">5GB Storage</li>
+                          <li class="bullet-item">20 Users</li>
+                          <li class="cta-button"><a href="#">Sign up now</a></li>
+                        </ul>                        
+                    </div>                                                            
+
+                </div>
+
+                <div class="full columns">
+                    <h2>Columns</h2>
+
+                    <div class="full">
+                        <h3>Full</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam pulvinar arcu faucibus sodales varius. Proin luctus posuere tellus vitae ultricies. Morbi elementum, massa ut laoreet condimentum, ligula metus gravida ante</p>             
+                    </div>
+
+                    <div class="half">
+                        <h3>Half</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam pulvinar arcu faucibus sodales varius. Proin luctus posuere tellus vitae ultricies. Morbi elementum, massa ut laoreet condimentum, ligula metus gravida ante</p>
+                    </div>
+
+
+                    <div class="half">
+                        <h3>Half</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam pulvinar arcu faucibus sodales varius. Proin luctus posuere tellus vitae ultricies. Morbi elementum, massa ut laoreet condimentum, ligula metus gravida ante</p>
+                    </div>                    
+                                                            
+
+                </div>                
+            </div>
+
+            <div class="footerItem">                
+                <div class="socials"> 
+                    <a href="#" class="facebook"></a>
+                    <a href="#" class="twitter"></a>
+                    <a href="#" class="vimeo"></a>
+                    <a href="#" class="reddit"></a>
+                    <a href="#" class="dribbble"></a>
+                    <a href="#" class="behance"></a>
+                    <a href="#" class="linkedin"></a>
+                    <a href="#" class="rss"></a>
+                    <a href="#" id="toTop" class="toTop">Back to top</a>
+                </div> 
+                <ul class="links">
+                    <li>website by avathemes</li>
+                    <li>all rights reserved 2013</li>
+                    <li><a href="#">privacy policy</a></li>
+                    <li><a href="#">support</a></li>
+                    <li><a href="#">purchase now</a></li>
+                    <li><a href="#">home</a></li>
+                    <li><a href="#">pages</a></li>
+                    <li><a href="#">portfolio</a></li>
+                    <li><a href="#">blog</a></li>
+                    <li><a href="#">contact</a></li>
+                </ul>                                  
+            </div>                                              
+        </div>
+    </div><!--Content end-->   
+
+
+
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/jquery.isotope.min.js"></script>
+        <script src="js/modernizr.custom.js"></script>
+        <script src="js/jquery.mCustomScrollbar.js"></script>
+        <script src="js/toucheffects.js"></script>
+        <script src="js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
+        <script src="js/jquery.knob.js"></script>
+        <script src="js/foundation.min.js"></script>
+        <script src="js/jquery.dlmenu.js"></script>
+        <script>
+            $(function() {
+                $( '#dl-menu' ).dlmenu();
+            });
+        </script> 
+
+
+  <!--
+  
+  <script src="js/foundation/foundation.js"></script>
+  
+  <script src="js/foundation/foundation.interchange.js"></script>
+  
+  <script src="js/foundation/foundation.abide.js"></script>
+  
+  <script src="js/foundation/foundation.dropdown.js"></script>
+  
+  <script src="js/foundation/foundation.placeholder.js"></script>
+  
+  <script src="js/foundation/foundation.forms.js"></script>
+  
+  <script src="js/foundation/foundation.alerts.js"></script>
+  
+  <script src="js/foundation/foundation.magellan.js"></script>
+  
+  <script src="js/foundation/foundation.reveal.js"></script>
+  
+  <script src="js/foundation/foundation.tooltips.js"></script>
+  
+  <script src="js/foundation/foundation.clearing.js"></script>
+  
+  <script src="js/foundation/foundation.cookie.js"></script>
+  
+  <script src="js/foundation/foundation.joyride.js"></script>
+  
+  <script src="js/foundation/foundation.orbit.js"></script>
+  
+  <script src="js/foundation/foundation.section.js"></script>
+  
+  <script src="js/foundation/foundation.topbar.js"></script>
+  
+  -->
+  
+  <script>
+    $(document).foundation();
+  </script>
+
+  <script>
+    $(window).load(function() {
+    $('#container').isotope({
+      masonry: {
+         columnWidth: 1
+      }
+    });
+    });
+  </script>
+
+  <script>
+    $('.sideNavi').delay(500).animate({left: 0});
+  </script>
+
+
+  <script>
+    $("#toTop").click(function(e){
+            e.preventDefault();
+        $("html, body").animate({scrollTop: 0}, 1000);
+     });
+  </script> 
+
+  <script type="text/javascript">
+    jQuery(window).load(function ()
+    {
+
+        jQuery("a[data-rel^='prettyPhoto']").prettyPhoto({
+            theme: 'dark_square', /* light_rounded / dark_rounded / light_square / dark_square / facebook */
+        });
+     
+    });
+  </script> 
+
+<script>
+$(window).load(function() {
+    $('.contentImageHolder').find('img').each(function() {
+        var imgClass = (this.width / this.height > 1) ? 'wide' : 'tall';
+        $(this).addClass(imgClass);
+    })
+})
+</script>    
+
+
+<script>
+$(function(){
+    $('.contentHolder').css({'height':(($(window).height()))+'px'});
+
+    $(window).resize(function(){
+    $('.contentHolder').css({'height':(($(window).height()))+'px'});
+    });
+});
+</script> 
+     
+<script>
+$(function($) {
+
+$(".knob").knob({
+change : function (value) {
+    //console.log("change : " + value);
+},
+release : function (value) {
+    //console.log(this.$.attr('value'));
+    console.log("release : " + value);
+},
+cancel : function () {
+    console.log("cancel : ", this);
+},
+draw : function () {
+
+    // "tron" case
+    if(this.$.data('skin') == 'tron') {
+
+        var a = this.angle(this.cv)  // Angle
+            , sa = this.startAngle          // Previous start angle
+            , sat = this.startAngle         // Start angle
+            , ea                            // Previous end angle
+            , eat = sat + a                 // End angle
+            , r = 1;
+
+        this.g.lineWidth = this.lineWidth;
+
+        this.o.cursor
+            && (sat = eat - 0.3)
+            && (eat = eat + 0.3);
+
+        if (this.o.displayPrevious) {
+            ea = this.startAngle + this.angle(this.v);
+            this.o.cursor
+                && (sa = ea - 0.3)
+                && (ea = ea + 0.3);
+            this.g.beginPath();
+            this.g.strokeStyle = this.pColor;
+            this.g.arc(this.xy, this.xy, this.radius - this.lineWidth, sa, ea, false);
+            this.g.stroke();
+        }
+
+        this.g.beginPath();
+        this.g.strokeStyle = r ? this.o.fgColor : this.fgColor ;
+        this.g.arc(this.xy, this.xy, this.radius - this.lineWidth, sat, eat, false);
+        this.g.stroke();
+
+        this.g.lineWidth = 2;
+        this.g.beginPath();
+        this.g.strokeStyle = this.o.fgColor;
+        this.g.arc( this.xy, this.xy, this.radius - this.lineWidth + 1 + this.lineWidth * 2 / 3, 0, 2 * Math.PI, false);
+        this.g.stroke();
+
+        return false;
+    }
+}
+});
+
+
+});
+</script>
+
+<script>
+$(document).ready(function(){ 
+   $('#identifier').hoverAccordion({
+      keepHeight: false, 
+      activateItem: 2, 
+      speed: 'fast' 
+
+   }); 
+});
+</script>
+
+<script>
+    (function($){
+        $(window).load(function(){
+            $(".scrollContent").mCustomScrollbar();
+                $(".scrollContent a.toTop").click(function(e){
+            e.preventDefault();
+            $(".scrollContent").mCustomScrollbar("scrollTo","top");
+        });            
+        });
+    })(jQuery);
+</script>     
+
+<script>
+$(function(){
+    $('.scrollContent').css({'max-height':(($(window).height()))+'px'});
+
+    $(window).resize(function(){
+    $('.scrollContent').css({'max-height':(($(window).height()))+'px'});
+    });
+});
+</script> 
+
+  <!-- Preloader --><script type="text/javascript">// <![CDATA[
+$(window).load(function() { $("#spinner").fadeOut("slow"); })
+// ]]></script> 
+
+    </body>
+</html>
